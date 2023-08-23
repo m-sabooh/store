@@ -2,7 +2,6 @@ import {Component, OnInit} from '@angular/core';
 import {Cart, CartItem} from "../../models/cart.model";
 import {CartService} from "../../services/cart.service";
 import {HttpClient} from "@angular/common/http";
-import {async} from "rxjs";
 import {loadStripe} from "@stripe/stripe-js";
 
 @Component({
